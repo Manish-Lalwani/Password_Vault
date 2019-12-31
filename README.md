@@ -2,19 +2,13 @@
 
 
 <b>Basic Flow of the Application :</b>
-<pre>
- 1. User will open the Application console and enter:
-	i.Login credentials
-	ii. Server detail : ServerName, UserID on server, and Reason for password requirement.
-	
-2. Details will be passed to server using API Call
-
-3. Server will first authenticate user
-
-4. Once authenticated will fetch the password from Database which will already be encrypted using the key which is stored on user end.
-
-5. The returned password will first be decrypted using the key stored at User end and then will be displayed on the application interface to be used further.
-</pre>
+ 1. User will open the Application console and enter:<br>
+&nbsp;&nbsp;&nbsp;&nbsp; i.&nbsp;Login credentials<br>
+&nbsp;&nbsp;&nbsp;&nbsp; ii.&nbsp;Server detail : ServerName, UserID on server, and Reason for password requirement.<br>
+2. Details will be passed to server using API Call<br>
+3. Server will first authenticate user<br>
+4. Once authenticated will fetch the password from Database which will already be encrypted using the key which is stored on user end.<br>
+5. The returned password will first be decrypted using the key stored at User end and then will be displayed on the application interface to be used further.<br>
 
 
 
