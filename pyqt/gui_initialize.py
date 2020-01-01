@@ -4,7 +4,7 @@ from PyQt5.QtWidgets import QApplication
 
 
 app = QApplication([])
-dlg = uic.loadUi("GUI.ui")
+dlg = uic.loadUi("gui.ui")
 
 dlg.show()
 app.exec()
